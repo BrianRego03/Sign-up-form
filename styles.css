@@ -41,9 +41,12 @@
   #root, #__next {
     isolation: isolate;
   }
+
   
 
-body{
+
+
+.skeleton{
     display:flex;
     justify-content: space-between;
 }
@@ -63,7 +66,7 @@ img{
     min-width: 100%;
 }
 .picture{
-    min-width: 35%;
+    max-width: 35%;
     min-height: 100%;
     background-image:url("./pics/apes.jpeg");
     display:flex;
