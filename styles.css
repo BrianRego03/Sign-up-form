@@ -68,11 +68,16 @@ img{
 }
 .picture{
     min-width: 35%;
-    min-height: 100%;
+    
     background-image:url("./pics/apes.jpeg");
     background-size:90% auto;
     display:flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     padding-top: 10%;
+}
+
+.credits{
+    color: azure;
 }
