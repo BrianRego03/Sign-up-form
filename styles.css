@@ -2,3 +2,16 @@ body{
     display:flex;
     justify-content: space-between;
 }
+
+img{
+    align-self: center;
+    width: auto;
+    height: 5rem;
+}
+.picture>div{
+    background-color: black;
+    color: aliceblue;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+}
