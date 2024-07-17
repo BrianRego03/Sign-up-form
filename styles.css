@@ -42,6 +42,16 @@
     isolation: isolate;
   }
 
+  @font-face {
+    font-family: 'Norse';
+    src: url('./fonts/Norse-Bold.woff2') format('woff2'),
+        url('./fonts/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
   
 
 
@@ -65,6 +75,7 @@ img{
     justify-content: center;
     width: 100%;
     margin-bottom: 80%; 
+    font-family: 'Norse'
 }
 .picture{
     min-width: 35%;
