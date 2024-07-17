@@ -54,28 +54,32 @@
 img{
     align-self: center;
     width: auto;
-    height: 5rem;
+    height: 4rem;
 }
 .logo{
     background-color: rgba(0,0,0,0.7);
     color: aliceblue;
-    font-size: 5rem;
+    font-size: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
     min-width: 100%;
-    margin-bottom: 70%;
+    margin-bottom: 80%; 
 }
 .picture{
     min-width: 35%;
     
     background-image:url("./pics/apes.jpeg");
-    background-size:90% auto;
+    background-size:100% auto;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10%;
+    padding-top: 5rem; 
+    padding-bottom: 1rem;
+    height: 100vh;
+   
+
 }
 
 .credits{
