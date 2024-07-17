@@ -64,12 +64,15 @@ img{
     align-items: center;
     justify-content: center;
     min-width: 100%;
+    margin-bottom: 70%;
 }
 .picture{
     min-width: 35%;
     min-height: 100%;
     background-image:url("./pics/apes.jpeg");
+    background-size:90% auto;
     display:flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10%;
 }
