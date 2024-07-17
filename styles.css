@@ -54,12 +54,12 @@
 img{
     align-self: center;
     width: auto;
-    height: 4rem;
+    height: 12vh;
 }
 .logo{
     background-color: rgba(0,0,0,0.7);
     color: aliceblue;
-    font-size: 4rem;
+    font-size: calc(4vw + 4vh);
     display: flex;
     align-items: center;
     justify-content: center;
