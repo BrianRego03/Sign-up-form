@@ -132,13 +132,18 @@ legend{
   
 }
 
+input{
+
+border: 5px solid rgba(0,0,0,0);
+}
+
 input:focus{
   border: 5px solid lightblue;
-  box-shadow:1px 1px black;
+  box-shadow:4px 4px 4px yellow;
   
 }
 
-input.required:invalid{
+input:invalid{
   border: 5px solid red;
 }
 
