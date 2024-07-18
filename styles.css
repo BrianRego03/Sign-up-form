@@ -117,6 +117,9 @@ legend{
   font-weight:bolder;
   font-size:x-large;
 }
+a{
+  color: aliceblue;
+}
 .credits{
     color: azure;
 }
