@@ -143,7 +143,11 @@ input:focus{
   
 }
 
-input:invalid{
+#password:not(:placeholder-shown):invalid{
+  border: 5px solid red;
+}
+
+#confirm:not(:placeholder-shown):invalid{
   border: 5px solid red;
 }
 
