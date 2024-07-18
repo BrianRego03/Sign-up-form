@@ -119,8 +119,8 @@ legend{
 }
 
 button{
-  height: 7% ;
-  width:20%;
+  height: 60px ;
+  width:250px;
   border-radius: 10px;
   margin:3% 3%;
   background-color: #8EB5B4;
