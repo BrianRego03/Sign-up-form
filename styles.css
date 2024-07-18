@@ -94,9 +94,30 @@ img{
 }
 
 .intro{
-  padding: 3%;
+  /* padding: 3% 0%; */
+  background-color: #1e1919;
 }
 
+.statement{
+  color: #b2baa7;
+  font-weight: bold;
+  margin: 3%;
+}
+
+form{
+  background-color: #b2baa7;
+  color: #584637;
+  
+}
+.formlines{
+  margin: 0 3%;
+  font-weight: 700;
+}
+legend{
+  margin:0 3%;
+  font-weight:bolder;
+  font-size:x-large;
+}
 .credits{
     color: azure;
 }
