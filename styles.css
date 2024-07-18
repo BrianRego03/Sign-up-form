@@ -132,6 +132,16 @@ legend{
   
 }
 
+input:focus{
+  border: 5px solid lightblue;
+  box-shadow:1px 1px black;
+  
+}
+
+input.required:invalid{
+  border: 5px solid red;
+}
+
 button{
   height: 60px ;
   width:220px;
