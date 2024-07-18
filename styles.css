@@ -93,6 +93,10 @@ img{
 
 }
 
+.intro{
+  padding: 3%;
+}
+
 .credits{
     color: azure;
 }
