@@ -118,6 +118,18 @@ legend{
   font-size:x-large;
 }
 
+.formcouple{
+  display: flex;
+  flex-flow: column;
+  margin-right: 3%;
+}
+.formpair{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
 button{
   height: 60px ;
   width:250px;
